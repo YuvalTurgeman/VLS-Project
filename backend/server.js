@@ -11,7 +11,7 @@ app.use(bodyParser.json()); // Parse JSON bodies
 app.use(cors()); // Enable CORS for all routes
 
 // Connect to MongoDB database
-mongoose.connect('mongodb+srv://ahkcht981:Ahkcht98@bstorec.5l8i8lk.mongodb.net/?retryWrites=true&w=majority&appName=bstorec', {
+mongoose.connect('server url', {
   useNewUrlParser: true,
   useUnifiedTopology: true
 })
